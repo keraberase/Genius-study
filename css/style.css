@@ -1,52 +1,226 @@
-:root{
-    --olive:#819b57;
-    --olive-dark:#465929;
-    --black: #31261A;
-}
-ul{
-    list-style-type: none;
-}
-body{
-    color: var(--black) ;
+:root {
+  --olive: #819b57;
+  --olive-dark: #465929;
+  --black: #31261a;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+img {
+  display: block;
+}
+
+body {
+  color: var(--black);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+}
+section {
+  padding-bottom: 96px;
+}
+
+.container {
+  min-width: 1240px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+.style-two-section {
+    background-image: url('../images/hero-section.jpg');
+ background-size: cover; /* Изображение покрывает весь контейнер */
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 0;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+}
 .button {
+  padding: 16px 32px;
   color: #faf4ea;
   border-radius: 8px;
   border: 2px solid var(--olive);
   background-color: var(--olive);
   cursor: pointer;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
 }
 .button:hover,
-.button:active{
+.button:active {
   color: var(--olive-dark);
   background-color: transparent;
 }
-.nav-link{
-    color: #FAF4EA;
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+.nav-link {
+  color: #faf4ea;
 }
 .nav-link:hover,
-.nav-link:active{
-color: var(--olive);
-}
-.hero-title{
-    color: #FAF4EA;
+.nav-link:active {
+  color: var(--olive);
 }
 
-.hero-span{
-    color: var(--olive);
+.menu-item {
+  text-align: center;
+  font-weight: 600;
 }
-.advantages-list{
-    background-color: var(--olive);
-    color: #FAF4EA;
+.hero-text {
+  font-size: 128px;
+  font-weight: 900;
+  text-align: center;
+}
+.hero-title {
+  background-image: url('../images/hero-section.jpg');
+  color: #faf4ea;
 }
 
-.chef-span{
-    color: var(--olive-dark);
+.hero-span {
+  color: var(--olive);
 }
-.new-format-span{
-    color: var(--olive);
+
+.advantages-list {
+  background-color: var(--olive);
+  color: #faf4ea;
 }
-.new-format-accent{
-    color: var(--olive);
+
+.advantages-information {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.new-format-title {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+.new-format-span {
+  color: var(--olive);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.new-format-accent {
+  color: var(--olive);
+}
+.chef-titel {
+  font-size: 64px;
+  font-weight: 900;
+  text-align: center;
+}
+.chef-span {
+  color: var(--olive-dark);
+}
+
+.chef-titel-name {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.chef-list {
+}
+
+.formats-title {
+  font-size: 64px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.formats-titel-cards {
+  font-size: 24px;
+  font-weight: 600;
+}
+.formats-item {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.contacts-titel {
+  font-size: 64px;
+  font-weight: 900;
+}
+.contacts-button {
+  color: #faf4ea;
+  border-radius: 8px;
+  border: 2px solid var(--olive);
+  background-color: var(--olive);
+  cursor: pointer;
+  font-weight: 600;
+}
+.contacts-button:hover,
+.contacts-button:active {
+  color: var(--olive-dark);
+  background-color: transparent;
+}
+.contacts-policy {
+  font-size: 12px;
+  text-align: center;
+}
+.contacts-policy-span {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.contacts-information {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.footer-policy {
+  font-size: 16px;
+  font-weight: 300;
+}
+.footer-save {
+  font-size: 14px;
+  font-style: normal;
+}
+
+.new-format-section {
+}
+
+.chef-item {
+}
+.chef-titel-name {
+}
+
+.contacts-text {
 }
