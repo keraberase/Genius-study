@@ -40,6 +40,7 @@ body {
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: -0.04em;
+    background-color: #FAF4EA;
 }
 section {
   padding-bottom: 96px;
@@ -115,6 +116,9 @@ section {
 }
 
 .advantages-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
   background-color: var(--olive);
   color: #faf4ea;
 }
@@ -124,6 +128,19 @@ section {
   font-weight: 300;
 }
 
+.new-format{
+  display: flex;
+  gap: 104px;
+  justify-content: space-between; 
+}
+
+.new-format-content {
+display: flex;
+width: 708px;
+flex-direction: column;
+align-items: flex-start;
+gap: 42px;
+}
 .new-format-title {
   font-size: 64px;
   font-weight: 900;
@@ -138,19 +155,54 @@ section {
 .new-format-accent {
   color: var(--olive);
 }
-.chef-titel {
-  font-size: 64px;
+.our-chef {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.chef-title {
+  font-size: 48px;
   font-weight: 900;
   text-align: center;
 }
+
 .chef-span {
-  color: var(--olive-dark);
+  color: #557a46; /* Темно-оливковый */
+}
+
+.our-chef-content {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.chef-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 400px;
+  text-align: center;
+  padding: 20px;
+}
+
+.chef-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.chef-info {
+  padding: 20px;
 }
 
 .chef-titel-name {
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
 }
+
 
 .chef-list {
 }
@@ -214,8 +266,6 @@ section {
   font-style: normal;
 }
 
-.new-format-section {
-}
 
 .chef-item {
 }
